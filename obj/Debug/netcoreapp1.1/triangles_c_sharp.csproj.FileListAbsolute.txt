@@ -1,0 +1,8 @@
+/Users/Guest/Desktop/triangles-c-sharp/bin/Debug/netcoreapp1.1/triangles_c_sharp.deps.json
+/Users/Guest/Desktop/triangles-c-sharp/bin/Debug/netcoreapp1.1/triangles_c_sharp.runtimeconfig.json
+/Users/Guest/Desktop/triangles-c-sharp/bin/Debug/netcoreapp1.1/triangles_c_sharp.runtimeconfig.dev.json
+/Users/Guest/Desktop/triangles-c-sharp/bin/Debug/netcoreapp1.1/triangles_c_sharp.dll
+/Users/Guest/Desktop/triangles-c-sharp/bin/Debug/netcoreapp1.1/triangles_c_sharp.pdb
+/Users/Guest/Desktop/triangles-c-sharp/obj/Debug/netcoreapp1.1/triangles_c_sharp.AssemblyInfo.cs
+/Users/Guest/Desktop/triangles-c-sharp/obj/Debug/netcoreapp1.1/triangles_c_sharp.dll
+/Users/Guest/Desktop/triangles-c-sharp/obj/Debug/netcoreapp1.1/triangles_c_sharp.pdb

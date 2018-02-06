@@ -1,7 +1,7 @@
 using System.IO;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Triangle
+namespace Triangles
 {
     public class Program
     {

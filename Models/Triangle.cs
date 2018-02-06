@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Triangle.Models
+namespace Triangles.Models
 {
   public class Triangle
   {
@@ -29,7 +29,7 @@ namespace Triangle.Models
 
     public void SetSideB(int newSideB)
     {
-      _sideA = newSideB;
+      _sideB = newSideB;
     }
 
     public int GetSideB()
@@ -39,7 +39,7 @@ namespace Triangle.Models
 
     public void SetSideC(int newSideC)
     {
-      _sideA = newSideC;
+      _sideC = newSideC;
     }
 
     public int GetSideC()
@@ -47,15 +47,86 @@ namespace Triangle.Models
       return _sideC;
     }
 
-    public void SetType(int newType)
+    public void SetType(string newType)
     {
       _type = newType;
     }
 
-    public int GetType()
+    public string GetType()
     {
       return _type;
     }
 
+    public bool IsTriangle(Triangle triangle)
+    {
+      if ((_sideA >= _sideB + _sideC) || (_sideB >= _sideA + _sideC) || (_sideC >= _sideA + _sideB))
+      {
+        return false;
+      }
+      else
+      {
+        return true;
+      }
+    }
+
+    public bool IsEquilateral(Triangle triangle)
+    {
+      if ((_sideA == _sideB) && (_sideB == _sideC))
+      {
+        return true;
+      }
+      else
+      {
+        return false;
+      }
+    }
+
+    public bool IsIsosceles(Triangle triangle)
+    {
+      if ((_sideA == _sideB) || (_sideB == _sideC) || (_sideA == _sideC))
+      {
+        return true;
+      }
+      else
+      {
+        return false;
+      }
+    }
+
+    public string DetermineType(Triangle triangle)
+    {
+      if (!triangle.IsTriangle(triangle))
+      {
+        return "Not a Triangle";
+      }
+      else if (triangle.IsEquilateral(triangle))
+      {
+        return "Equilateral";
+      }
+      else if (triangle.IsIsosceles(triangle))
+      {
+        return "Isosceles";
+      }
+      else
+      {
+        return "Scalene";
+      }
+    }
+
   }
 }
+
+
+
+// public class Program
+// {
+//   public static void Main()
+//   {
+//     Triangle triangle1 = new Triangle(5, 3, 2);
+//     // triangle1.SetSideA(5);
+//     // triangle1.SetSideB(3);
+//     // triangle1.SetSideC(2);
+//     string result = triangle1.DetermineType(triangle1);
+//     Console.WriteLine(result);
+//   }
+// }
