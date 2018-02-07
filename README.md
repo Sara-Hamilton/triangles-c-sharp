@@ -15,24 +15,24 @@ _A form has inputs for three sides of a triangle.  When the form is filled out a
 ```
 https://github.com/Sara-Hamilton/triangles-c-sharp.git
 ```
-or
+  or
 ```
 https://github.com/jaybojaybojaybo/triangles-c-sharp.git
 ```
 
 * _Install the .NET Framework_
 
- .NET Core 1.1 SDK (Software Development Kit)
+  .NET Core 1.1 SDK (Software Development Kit)
 
- .NET runtime.
+  .NET runtime.
 
- See https://www.learnhowtoprogram.com/c/getting-started-with-c/installing-c for instructions and links.
+  See https://www.learnhowtoprogram.com/c/getting-started-with-c/installing-c for instructions and links.
 
 * _Run the program_
-1. In the command line, CD into the project folder.
-2. In the command line, type dotnet restore. Enter.
-3. In the command line, type dotnet build. Enter.
-4. In the command line, type dotnet run. Enter.
+  1. In the command line, CD into the project folder.
+  2. In the command line, type dotnet restore. Enter.
+  3. In the command line, type dotnet build. Enter.
+  4. In the command line, type dotnet run. Enter.
 
 * _View program on web browser at port localhost:5000_
 
